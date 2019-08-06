@@ -75,9 +75,10 @@ body, html {
 }
 
 .thumbbox{
-    max-width:90%;
+    max-width:60%;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left:auto;
 }
 .shadow {
     box-shadow: 0px 0px 15px 15px #00000054;
@@ -235,7 +236,7 @@ h2.orange{
       right: 35px;
     }
   } 
-
+  
   @-webkit-keyframes rotation {
     from {
             -webkit-transform: rotate(0deg);
