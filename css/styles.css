@@ -235,6 +235,11 @@ h2.orange{
       top: 15px;
       right: 35px;
     }
+    .thumbbox{
+        max-width:100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
   } 
   
   @-webkit-keyframes rotation {
