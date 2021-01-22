@@ -175,11 +175,122 @@
                       </div>
 
           <div class="row align-items-center p-2">
-            <div class="col-4"><button type="button" class="btn btn-light wide jirei" onclick="myFunction証券()">証券</button></div>
+            <div class="col-4"><button type="button" id="myBtn" class="btn btn-light wide jirei">証券</button></div>
             <div class="col-4"><button type="button" class="btn btn-light wide jirei" onclick="myFunction化粧品()">化粧品</button></div>
             <div class="col-4"><button type="button" class="btn btn-light wide jirei" onclick="myFunction広告()">広告</button></div>
           </div>
-          <div class="row align-items-center p-2">
+ 
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+  
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      
+      <div class="wrapper" id="box資材">
+        <div class="row align-items-center p-4"><h2>資材</h2>
+          <div class="card mb-3" style="background-color: #f8f9fa; border: 0px solid rgba(0, 0, 0, 0.125);">
+            
+            <div class="row" style="margin-bottom:30px;">
+              <div class="col-md-4 align-items-center" style="background: linear-gradient(180deg, #0300A4 0%, rgba(255, 255, 255, 0) 100%), #0500FF; height:200px; border-radius: 0.25rem; text-align:center">
+                <div style="margin:30px 10px 10px 10px"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 79.1666C18.3688 79.1666 0.833313 61.6311 0.833313 39.9999C0.833313 18.3688 18.3688 0.833252 40 0.833252C61.6311 0.833252 79.1666 18.3688 79.1666 39.9999C79.1429 61.6212 61.6213 79.1428 40 79.1666ZM8.66665 40.6736C8.85197 57.9118 22.9277 71.7623 40.1666 71.6701C57.4055 71.577 71.3315 57.5759 71.3315 40.3367C71.3315 23.0976 57.4055 9.09653 40.1666 9.00341C22.9277 8.91121 8.85197 22.7617 8.66665 39.9999V40.6736ZM43.9166 59.5833H36.0833V43.9166H20.4166V36.0833H36.0833V20.4166H43.9166V36.0833H59.5833V43.9166H43.9166V59.5833Z" fill="white" /></svg>
+                  <p style="color:white">この件について<br>伺いたい。</p></div>
+              </div><div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">大手銀行　大阪市　本社</h5>
+                  <div class="row">
+                    <div class="col-4">売上</div>
+                    <div class="col-8">9999999JPY</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">年給</div>
+                    <div class="col-8">666666JPY</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">従業員数</div>
+                    <div class="col-8">100</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">メモ</div>
+                    <div class="col-8">
+                      <p class="card-text">遊技機の開発および製造業</p>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" style="margin-bottom:30px;">
+              <div class="col-md-4 align-items-center" style="background: linear-gradient(180deg, #0300A4 0%, rgba(255, 255, 255, 0) 100%), #0500FF; height:200px; border-radius: 0.25rem; text-align:center">
+                <div style="margin:30px 10px 10px 10px"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 79.1666C18.3688 79.1666 0.833313 61.6311 0.833313 39.9999C0.833313 18.3688 18.3688 0.833252 40 0.833252C61.6311 0.833252 79.1666 18.3688 79.1666 39.9999C79.1429 61.6212 61.6213 79.1428 40 79.1666ZM8.66665 40.6736C8.85197 57.9118 22.9277 71.7623 40.1666 71.6701C57.4055 71.577 71.3315 57.5759 71.3315 40.3367C71.3315 23.0976 57.4055 9.09653 40.1666 9.00341C22.9277 8.91121 8.85197 22.7617 8.66665 39.9999V40.6736ZM43.9166 59.5833H36.0833V43.9166H20.4166V36.0833H36.0833V20.4166H43.9166V36.0833H59.5833V43.9166H43.9166V59.5833Z" fill="white" /></svg>
+                  <p style="color:white">この件について<br>伺いたい。</p></div>
+              </div><div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">大手銀行　大阪市　本社</h5>
+                  <div class="row">
+                    <div class="col-4">売上</div>
+                    <div class="col-8">9999999JPY</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">年給</div>
+                    <div class="col-8">666666JPY</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">従業員数</div>
+                    <div class="col-8">100</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">メモ</div>
+                    <div class="col-8">
+                      <p class="card-text">遊技機の開発および製造業</p>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 align-items-center" style="background: linear-gradient(180deg, #0300A4 0%, rgba(255, 255, 255, 0) 100%), #0500FF; height:200px; border-radius: 0.25rem; text-align:center">
+                <div style="margin:30px 10px 10px 10px"><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 79.1666C18.3688 79.1666 0.833313 61.6311 0.833313 39.9999C0.833313 18.3688 18.3688 0.833252 40 0.833252C61.6311 0.833252 79.1666 18.3688 79.1666 39.9999C79.1429 61.6212 61.6213 79.1428 40 79.1666ZM8.66665 40.6736C8.85197 57.9118 22.9277 71.7623 40.1666 71.6701C57.4055 71.577 71.3315 57.5759 71.3315 40.3367C71.3315 23.0976 57.4055 9.09653 40.1666 9.00341C22.9277 8.91121 8.85197 22.7617 8.66665 39.9999V40.6736ZM43.9166 59.5833H36.0833V43.9166H20.4166V36.0833H36.0833V20.4166H43.9166V36.0833H59.5833V43.9166H43.9166V59.5833Z" fill="white" /></svg>
+                  <p style="color:white">この件について<br>伺いたい。</p></div>
+              </div><div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">大手銀行　大阪市　本社</h5>
+                  <div class="row">
+                    <div class="col-4">売上</div>
+                    <div class="col-8">9999999JPY</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">年給</div>
+                    <div class="col-8">666666JPY</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">従業員数</div>
+                    <div class="col-8">100</div>
+                  </div>
+                  <div class="row">
+                    <div class="col-4">メモ</div>
+                    <div class="col-8">
+                      <p class="card-text">遊技機の開発および製造業</p>
+                    </div>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  
+  </div>
+
+          <!-- <div class="row align-items-center p-2">
             <div class="col-4"><button type="button" class="btn btn-light wide jirei" onclick="myFunction保険()">保険</button></div>
             <div class="col-4"><button type="button" class="btn btn-light wide jirei" onclick="myFunction繊維()">繊維</button></div>
             <div class="col-4"><button type="button" class="btn btn-light wide jirei" onclick="myFunction出版()">出版</button></div>
@@ -221,7 +332,7 @@
           </div>
           <div class="row align-items-center p-2">
             <div class="col-4"><button type="button" class="btn btn-light wide jirei" onclick="myFunction()">外食</button></div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -265,7 +376,7 @@
 
 
 
-  <section class="spacer" id="部門別">
+  <!-- <section class="spacer" id="部門別">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12 order-lg-1">
@@ -300,41 +411,7 @@ function myFunction広告() {var x = document.getElementById("box広告"); if (x
 
 
 
-<div class="wrapper" id="box資材" style="display:none">
-  <div class="row align-items-center p-4">
-    <div class="card mb-3" style="background-color: #f8f9fa; border: 0px solid rgba(0, 0, 0, 0.125);">
-      <div class="row">
-        <div class="col-md-4 align-items-center" style="background: linear-gradient(180deg, #0300A4 0%, rgba(255, 255, 255, 0) 100%), #0500FF; height:200px; border-radius: 0.25rem; text-align:center">
-          <div><svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 79.1666C18.3688 79.1666 0.833313 61.6311 0.833313 39.9999C0.833313 18.3688 18.3688 0.833252 40 0.833252C61.6311 0.833252 79.1666 18.3688 79.1666 39.9999C79.1429 61.6212 61.6213 79.1428 40 79.1666ZM8.66665 40.6736C8.85197 57.9118 22.9277 71.7623 40.1666 71.6701C57.4055 71.577 71.3315 57.5759 71.3315 40.3367C71.3315 23.0976 57.4055 9.09653 40.1666 9.00341C22.9277 8.91121 8.85197 22.7617 8.66665 39.9999V40.6736ZM43.9166 59.5833H36.0833V43.9166H20.4166V36.0833H36.0833V20.4166H43.9166V36.0833H59.5833V43.9166H43.9166V59.5833Z" fill="white" /></svg>
-            <p style="color:white">この件について<br>伺いたい。</p></div>
-        </div><div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">大手銀行　大阪市　本社</h5>
-            <div class="row">
-              <div class="col-4">売上</div>
-              <div class="col-8">9999999JPY</div>
-            </div>
-            <div class="row">
-              <div class="col-4">年給</div>
-              <div class="col-8">666666JPY</div>
-            </div>
-            <div class="row">
-              <div class="col-4">従業員数</div>
-              <div class="col-8">100</div>
-            </div>
-            <div class="row">
-              <div class="col-4">メモ</div>
-              <div class="col-8">
-                <p class="card-text">遊技機の開発および製造業</p>
-              </div>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+
 
           <div class="row align-items-center p-2">
             <div class="col-4"><button type="button" class="btn btn-light wide jirei">法務</button></div>
@@ -372,7 +449,7 @@ function myFunction広告() {var x = document.getElementById("box広告"); if (x
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -604,6 +681,58 @@ function myFunction広告() {var x = document.getElementById("box広告"); if (x
     </div>
     <!-- /.container -->
   </footer>
+
+
+
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+  
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
