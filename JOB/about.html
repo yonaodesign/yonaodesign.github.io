@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>START</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
+    rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/one-page-wonder.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-white navbar-custom fixed-top align-items-center">
+    <div class="container">
+      <a class="navbar-brand" href="#"><span class="logo"><svg width="75" height="75" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M40 79.1666C18.3688 79.1666 0.833313 61.6311 0.833313 39.9999C0.833313 18.3688 18.3688 0.833252 40 0.833252C61.6311 0.833252 79.1666 18.3688 79.1666 39.9999C79.1429 61.6212 61.6213 79.1428 40 79.1666ZM8.66665 40.6736C8.85197 57.9118 22.9277 71.7623 40.1666 71.6701C57.4055 71.577 71.3315 57.5759 71.3315 40.3367C71.3315 23.0976 57.4055 9.09653 40.1666 9.00341C22.9277 8.91121 8.85197 22.7617 8.66665 39.9999V40.6736ZM43.9166 59.5833H36.0833V43.9166H20.4166V36.0833H36.0833V20.4166H43.9166V36.0833H59.5833V43.9166H43.9166V59.5833Z" fill="blue" /></svg>
+      人材
+      </span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="pull-right">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#業界別">業界別</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#部門別">部門別</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#サービスの流れ">サービスの流れ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ご利用者の声">ご利用者の声</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">会社概要</a>
+            </li>
+            <li class="nav-item"><a href="お問い合わせ/" class="btn btn-primary btn-xs smallbtn py-4 px-5">無料のお問い合わせ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <h2 class="masthead-subheading mb-0"> すごい。</h2>
+      </div>
+    </div>
+  </header>
+
+
+  
+
+
+
+  <section id="ご挨拶" class="spacer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 order-lg-2">
+          <div class="p-5">
+
+            <div class="img-wrap">
+              <img class="img-fluid flip-horizontally" src="img/person01.jpg" alt="">
+            </div>
+
+          </div>
+        </div>
+        <div class="col-lg-7 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">このようなサービスです。</h2>
+            <p>あああああああああああああああああ。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="spacer section-gray">
+    <div class="container align-items-center p-5">
+      <button type="button" name="" id="" class="btn btn-primary btn-lg btn-block megabtn m-5" style="font-size:60px;">無料のお問い合わせ</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-black">
+    <div class="container">
+      <p class="m-0 text-center small">Copyright &copy; Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function () {
+      const image = document.querySelectorAll('.img-wrap');
+
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.intersectionRatio > 0) {
+            entry.target.classList.add('img-animation');
+          } else {
+            entry.target.classList.remove('img-animationOLD');
+          }
+        });
+      });
+
+      Array.prototype.forEach.call(image, function (img) {
+        observer.observe(img);
+      });
+    })();</script>
+
+</body>
+
+</html>

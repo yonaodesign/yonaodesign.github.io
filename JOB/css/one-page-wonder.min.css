@@ -1,0 +1,130 @@
+ body{font-family:Noto Sans JP}
+ h1,h2,h3,h4,h5,h6{font-family:Noto Serif JP;font-weight:800!important}
+ .rounded-pill{border-radius:5rem}
+ .navbar-custom{padding-top:1rem;padding-bottom:1rem;background-color:rgba(255, 255, 255, 0.9)}
+ .navbar-custom 
+ .navbar-brand{text-transform:uppercase;font-size:1rem;letter-spacing:.1rem;font-weight:700}
+ .navbar-custom .navbar-nav .nav-item .nav-link{text-transform:uppercase;font-size:20px;font-weight:700;letter-spacing:.1rem;color:black;}
+ .section-gray {background: #f8f9fa; text-align:center;}
+ .megabtn {width:700px; height:200px;font-size:5rem; margin:auto;background: linear-gradient(349.44deg, #0500FF 10.71%, rgba(255, 0, 122, 0.73) 110.03%);
+  border-radius: 23.8206px;border:0px;  box-shadow: 0px 12px #0300A4;} 
+  .smallbtn {background: linear-gradient(349.44deg, #0500FF 10.71%, rgba(255, 0, 122, 0.73) 110.03%);
+    border-radius: 10.8206px;border:0px;  box-shadow: 0px 5px #0300A4;} 
+ /*.uni-pill{width: 300px; height: 300px; background-image: linear-gradient(123.94deg, #0400ff90 16.36%, #ff007b90 84.55%);
+border-radius:500px}*/
+.uni-pill{width: 300px; height: 300px; background: #0400ff90;
+  border-radius:500px}
+ 
+.uni-pill-xs{width: 175px; height: 175px; background-image: linear-gradient(303.94deg, #0400ff90 16.36%, #ff007b90 84.55%);
+    border-radius:500px;text-align: center;}
+
+ /*.bg-primary{background-color:#ee0979!important}
+.btn-primary{background: linear-gradient(349.44deg, #0500FF 10.71%, rgba(255, 0, 122, 0.73) 110.03%); border-radius: 0px; border-radius: 10px; height:90px;width:300px;}
+ .btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#bd0760!important;border-color:#bd0760!important}
+ .btn-primary:focus{box-shadow:0 0 0 .2rem rgba(238,9,121,.5)}
+ 
+header.masthead {position:relative;overflow:hidden;padding-top:calc(7rem + 72px);padding-bottom:7rem; background: linear-gradient(123.94deg, #0500FF 16.36%, #FF007A 84.55%); opacity: 0.5;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size:cover;}*/
+ 
+.wide {width:100%;}
+
+.svg-class {display: block; margin: auto}
+.jirei{text-align:left;}
+
+.btn-primary{font-size:20px;}
+
+ header.masthead {
+     position:relative;
+     overflow:hidden;
+     padding-top:calc(3rem + 72px);
+     padding-bottom:3rem; 
+     background-image: linear-gradient(123.94deg, #0400ff90 16.36%, #ff007b90 84.55%),
+     linear-gradient(0deg, #ffffff90 16.36%, #ffffff90 84.55%), url("http://localhost/%E3%82%B7%E3%83%8B%E3%82%A2%E4%BA%BA%E6%9D%90/img/header01.png");
+     background-repeat:no-repeat;
+     background-position:center center;
+     background-attachment:scroll;
+     background-size:cover;}
+
+ header.masthead .masthead-content{z-index:1;position:relative}
+ header.masthead .masthead-content .masthead-heading{font-size:4rem}
+ header.masthead .masthead-content .masthead-subheading{font-size:2rem}
+
+ 
+ @media (min-width:992px)
+ {header.masthead{padding-top:calc(16rem + 55px);padding-bottom:16em}
+ header.masthead .masthead-content .masthead-heading{font-size:6rem}
+ header.masthead .masthead-content .masthead-subheading{font-size:4rem}}
+
+ .logo {font-family: Noto Serif JP;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    color: #0500FF;}
+
+.flip-horizontally {
+    transform: scaleX(-1);
+    }
+
+    .img-animation {
+        animation: img-opacity 2s cubic-bezier(.4, 0, .2, 1);
+        overflow: hidden;
+        position: relative;
+      }
+      
+      .img-animation:before {
+        animation: img-animation 2s cubic-bezier(.4, 0, .2, 1) forwards;
+        background: #fff;
+        bottom: 0;
+        content: '';
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+      }
+      
+      @keyframes img-opacity {
+        0% {
+          opacity: 0;
+        }
+      }
+      
+      @keyframes img-animation {
+        100% {
+          transform: translateX(100%);
+        }
+      }
+
+
+      .fade-in{ 
+        animation-name: sample01; 
+        animation-duration: 5s; 
+        animation-iteration-count:1;
+        animation-fill-mode: forwards; 
+      }
+      @keyframes sample01 {
+      0% {
+        opacity: 0;
+        color:#000;
+      }
+      90% {
+       opacity: 1;
+       color:#000;
+      }
+       100% {
+        opacity: 1;
+        color:#000;
+      } 
+      }
+
+
+
+.svg-icon-small {fill:white; display: block; margin:auto; position: relative;
+  top: 25%;
+  left:  30%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);}
+  
+.spacer {margin-bottom:50px;}
+
