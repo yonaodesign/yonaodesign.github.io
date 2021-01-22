@@ -75,19 +75,18 @@ h1, h2 {
 }
 
 button, li, a, footer p {
-    font-family: 'Noto Serif JP', serif;
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 p.lead {
-    font-size: 22px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 
 p {
     font-family: 'Noto Serif JP', serif;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 200%;
 }
 
@@ -98,6 +97,9 @@ a, footer p {
 h1, h2 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
+}
+a.nav-link, a {
+    font-family: 'Playfair Display', serif;
 }
 
 /* BACKGROUNDS */
