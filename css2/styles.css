@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,900");
+
+.semibold {
+	/* Montserrat Semi-bold = 600 */
+	font-weight: 600;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    letter-spacing: -0.025em;
+}
+
+.bold {
+	font-weight: 900;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+body, html {
+    color: #3000ff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+/*#fspop {
+    width: 100%;
+    height: 100%;
+}*/
+
+
+#fs-wrapper{
+    width: 100%;
+    height: 100vh;
+    /*static gradient*/
+    /*background: linear-gradient(to right bottom, rgba(10,0,178,0.8) 0%, rgba(255,0,0,0.8) 50%, rgba(255,252,0,8) 100%);
+    */
+    background: linear-gradient(325deg, rgba(10,0,178,0.8) 0%, rgba(255,0,0,0.8) 50%, rgba(255,252,0,8) 100%);
+    background-size: 300% 300%;
+    -webkit-animation: AnimationName 120s ease infinite;
+    -moz-animation: AnimationName 120s ease infinite;
+    animation: AnimationName 120s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#video {
+        position:fixed;
+        z-index: -12;
+        min-height: 100vh;
+        min-width: 100vw;
+        left:0%;
+        top:0%;
+}
+
+.tag-wrapper{
+    overflow : auto;
+    height: 100vh;
+}
+
+.tag {
+    padding: 1.5rem;
+    margin-top: auto;
+    margin-bottom: 20%;
+}
+
+.thumbbox{
+    max-width:60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:auto;
+}
+.shadow {
+    box-shadow: 0px 0px 15px 15px #00000054;
+}
+
+.textbox{
+    padding: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.textbox-year{
+        padding-left: 1.5rem;
+        margin-top: 50px;}
+
+.x-wrapper {
+    position:fixed;
+    right:10px;
+    top:10px;
+    transform: translateX(-20%);
+    }
+
+.darkblue{
+    color: #3000ff;
+}
+
+h2.orange{
+    color: #ec7c12;
+        background: -webkit-linear-gradient(#ec7c12, #ec6212);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /*filter: hue-rotate(180deg);*/
+}
+
+.bg-darkblue{
+    background-color: #3000ff;
+}
+
+/*.portfolio{
+    box-shadow: 0px -15px 30px -15px #111; 
+}*/
+
+.line-pointer-wrapper-bottom {
+    position:absolute;
+    left:30%;
+    right:auto;
+    bottom:0;
+    top:auto;
+}
+
+.halved{
+    width:50%;
+}
+.line-pointer {
+    border: 2px solid #3000ff;
+    border-radius: 0px;
+    width: 0px;
+    height: 2.75rem;
+    color:pink;
+    margin-bottom:0px;
+}
+
+.line-pointer-orange {
+    border: 2px solid #ec7c12;
+    border-radius: 0px;
+    width: 0px;
+    height: 2.75rem;
+    color:pink;
+    margin-bottom:0px;
+}
+
+.line-pointer-orange-horizontal {
+    border: 2px solid #ec7c12;
+    border-radius: 0px;
+    height: 0px;
+    width: 2.75rem;
+    color:pink;
+    margin-bottom:0px;
+}
+
+
+#menu-wrapper{
+    width: 100vw;
+    height: 100vh;
+    padding: auto;
+}
+
+.huge { font-size:72px;
+
+}
+
+.small{
+    font-size: 22.5008px;
+}
+
+
+ /* The Overlay (background) */
+ .overlay {
+    height: 100%;
+    max-width:50%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(255, 255, 255, 0.9); /* Black w/opacity*/
+    background: linear-gradient(325deg, rgba(10,0,178,0.8) 0%, rgba(255,0,0,0.8) 50%, rgba(255,252,0,8) 100%);
+    background-size: 300% 300%;
+
+    -webkit-animation: AnimationName 120s ease infinite;
+    -moz-animation: AnimationName 120s ease infinite;
+    animation: AnimationName 120s ease infinite;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    filter: hue-rotate(225deg);
+}
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    left:50%;
+    margin-top:auto;
+    bottom:20%;
+    position: absolute;
+    text-align: right; /* Centered text/links */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    text-decoration:none;
+    font-size: 24px;
+    color: rgba(10,0,178,0.8);
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #ec7c12;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    font-size:1rem;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+    .thumbbox{
+        max-width:100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+  } 
+  
+  @-webkit-keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
+}
