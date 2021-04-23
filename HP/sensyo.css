@@ -64,6 +64,14 @@ button, a, button > span, a > span {
     }
 }
 
+.lead-caption{font-size:105px;}
+
+@media screen and (max-width: 600px) {
+    .lead-caption {
+        font-size: 33px;
+    }
+}
+
 .main {
     display: flex;
     justify-content: space-between;
