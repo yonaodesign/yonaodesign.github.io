@@ -68,7 +68,7 @@ button, a, button > span, a > span {
 
 @media screen and (max-width: 600px) {
     .lead-caption {
-        font-size: 33px;
+        font-size: 48px;
     }
 }
 
