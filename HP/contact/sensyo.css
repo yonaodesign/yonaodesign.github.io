@@ -1,0 +1,424 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+    cursor: default;
+}
+
+.br {display:inline-block}
+
+:root, * {
+    /* --primary-color: #080199; */
+    --primary-color: #1200b6;
+    --secondary-color: #FFE600;
+    --dark-gray-color: #393939;
+    --medium-gray-color: #9F9F9F;
+    --low-gray-color: #FBFBFB;
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --outline: 200px;
+    --font-size-h3: 33px;
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 200%;
+    
+}
+
+.push-down {margin-top:50px;}
+
+.logo>svg {
+    fill: var(--primary-color);
+}
+
+:lang(en), .english {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+:lang(jp), .japanese {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    span.label {
+        display: none;
+    }
+    :root, * {
+        --outline: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    span.label {
+        display: none;
+    }
+    :root, * {
+        --outline: 25px;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-size: 50px;
+}
+
+p {
+    line-height: 200%;
+}
+
+a {
+    color: var(--black-color)
+}
+
+.reset-box {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    padding-left: var(--outline);
+    padding-right: var(--outline);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+.information {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.jumbotron {
+    color: var(--white-color);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(content/media/images/hero1.png);
+    min-height: 90vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: var(--outline);
+    padding-right: var(--outline);
+}
+
+#company .jumbotron {
+    color: var(--white-color);
+    background: linear-gradient(#1200b6cc, #1200b6cc), url(content/media/images/hero2.png);
+    min-height: 10vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#recruit .jumbotron1 {
+    color: var(--white-color);
+    background: linear-gradient(#1200b6cc, #1200b6cc), url(content/media/0099\ 1.png);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+#recruit .jumbotron2 {
+    color: var(--white-color);
+    background: linear-gradient(#1200b6cc, #1200b6cc), url(content/media/0205\ 1.png);
+
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#company>a {
+    color: white;
+}
+
+.genri {
+    background-color: var(--low-gray-color);
+}
+
+section h1 {
+    padding-bottom: 50px;
+}
+
+.news-item {margin-bottom: 50px;}
+.sdgs-icon {margin-bottom: 50px;}
+
+#services h1 {
+    color: var(--primary-color);
+}
+
+.catchcopy {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-10%);
+}
+
+.nav-header {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.cards, #services, #sdgs, #recruit, #contact, footer, #company .jumbotron, #blog, #news, #genri, .block, #news-block, #offer, #opinions {
+    padding-left: var(--outline);
+    padding-right: var(--outline);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#end {
+    padding-left: var(--outline);
+    padding-right: var(--outline);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.card h5 {
+    font-size: var(--font-size-h3);
+    border-color: white;
+    padding-bottom: 20px;
+}
+
+.card {
+    border-color: white;
+}
+
+.card-body {
+    border-color: white;
+}
+
+.icon {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.btn-primary {
+    color: var(--black-color);
+    background-color: var(--white-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    border-color: white;
+}
+
+nav .btn-primary, nav .btn-secondary {
+    margin-left: 14px;
+}
+
+.btn-secondary {
+    color: var(--black-color);
+    background-color: var(--secondary-color);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    border-color: var(--secondary-color);
+}
+
+.pull-right {
+    @extend .float-right;
+}
+
+.dropdown-menu {
+    min-width: 250px !important;
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+nav {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+h5 {
+    line-height: 200%;
+}
+
+.scroll-down.arrow span {
+    position: absolute;
+    display: inline-block;
+    bottom: 0px;
+    height: 30px;
+    width: 2px;
+    left: calc(50% - 1px);
+    animation: animateArrow 5s infinite linear;
+}
+
+@keyframes animateArrow {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+}
+
+.scroll-down.arrow span::before, .scroll-down.arrow span::after {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.scroll-down.arrow span::before {
+    transform-origin: bottom;
+    transform: rotate(-45deg);
+}
+
+.scroll-down.arrow span::after {
+    transform-origin: bottom;
+    margin-left: -1px;
+    transform: rotate(45deg);
+}
+
+footer {
+    background-color: var(--low-gray-color);
+}
+
+.end {
+    background-color: var(--medium-gray-color);
+}
+
+p.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+p.accordion.active, p.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Unicode character for "plus" sign (+) */
+
+p.accordion:after {
+    content: '\2795';
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+
+p.accordion.active:after {
+    content: "\2796";
+}
+
+/* Style the element that is used for the panel class */
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+    opacity: 0;
+    margin-bottom: 10px;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+h3>a {
+    color: white;
+}
+.white>ul>li>h3>a {
+    color: black;
+}
+
+
+ 
+.carousel-caption {
+    top: 23%;
+    z-index: 99;    
+}
+.carousel-item {
+    position: relative;
+}
+.carousel-item img {
+    z-index: 2;
+}
+.background-overlay {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.carousel-control-next, .carousel-control-prev{
+z-index: 4;    
+}
+@media(max-width:1180px) {
+  .carousel-caption h5 {
+    font-size: 2.5rem !important;
+    margin-bottom:15px !important;
+  }
+  .carousel-caption p {
+    font-size: 1.5rem !important;
+    margin-bottom:20px !important;
+  }
+  .carousel-caption {
+    top:25%;
+    }
+}
+@media(max-width:980px) {
+    .carousel-caption {
+    top: 20%;
+    }
+  .carousel-caption h5 {
+    font-size: 1.5rem !important;
+  }
+   .carousel-caption p {
+    font-size: 1rem !important;
+  }
+  .carousel-caption .btn {
+    display:none;
+  }
+}
+
+.carousel-item > img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
