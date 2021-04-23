@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: -apple-system-body, BlinkMacSystemFont, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -75,7 +75,7 @@ button, a, button > span, a > span {
 
     .small-push-down {margin-top:32px;}
 
-    .footer-visibility {display-none;}
+    .footer-visibility {display:none;}
     
 }
 
@@ -228,6 +228,7 @@ section h1 {
     padding-right: var(--outline);
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: var(--skyblue-color);
 }
 
 .card h5 {
