@@ -10,8 +10,8 @@ body.overflow-hidden {
 }
 
 #side-menu {
-    width: 300px;
-    right: -300px;
+    width: 400px;
+    right: -400px;
     overflow-y: auto;
     z-index: 1035;
     background: #fff;
@@ -40,7 +40,6 @@ body.side-menu-visible #side-menu {
 }
 
 #side-menu .close {
-    font-size: 36px;
     font-weight: 400
 }
 
@@ -57,5 +56,5 @@ body.side-menu-visible #side-menu {
 }
 
 body.side-menu-visible #side-menu.side-menu-left {
-    transform: translateX(300px)
+    transform: translateX(400px)
 }
