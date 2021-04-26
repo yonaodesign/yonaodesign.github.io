@@ -6,7 +6,7 @@
 }
 
 body.overflow-hidden {
-    overflow: hidden
+    overflow-x: auto;
 }
 
 #side-menu {
