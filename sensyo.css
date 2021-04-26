@@ -81,6 +81,12 @@ button, a, button > span, a > span {
     }
     
 }
+@media screen and (min-width: 601) {
+    .blog-desription {margin-left:50px}
+    
+}
+
+
 
 @media screen and (max-width: 600px) {
     span.label {
@@ -97,6 +103,7 @@ button, a, button > span, a > span {
         max-width: 65px;
         display:inline-block;
     }
+    .blog-desription {margin-left:0px}
 }
 
 .lead-caption{font-size:105px;}
@@ -431,7 +438,13 @@ div.panel.show {
     color: black;
 }
 
+.white>ul{
+    padding:0px;
+}
 
+#end{
+    text-align: center;
+}
  
 .carousel-caption {
     top: 23%;
