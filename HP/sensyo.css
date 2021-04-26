@@ -55,6 +55,7 @@ button, a, button > span, a > span {
     :root, * {
         --outline: 50px;
     }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -64,6 +65,10 @@ button, a, button > span, a > span {
     :root, * {
         --outline: 25px;
     }
+
+    .small-hidden {
+        display: none;
+    }
 }
 
 .lead-caption{font-size:105px;}
@@ -71,6 +76,9 @@ button, a, button > span, a > span {
 @media screen and (max-width: 900px) {
     .lead-caption {
         font-size: 48px;
+    }
+    .small-hidden {
+        display: :none;
     }
 
     .small-push-down {margin-top:32px;}
