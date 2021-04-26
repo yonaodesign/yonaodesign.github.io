@@ -66,8 +66,12 @@ button, a, button > span, a > span {
         --outline: 25px;
     }
 
-    .small-hidden {
-        display: none;
+    .logo {
+        max-width: 60px;
+    }
+    #logocol {
+        max-width: 65px;
+        display:inline-block;
     }
 }
 
