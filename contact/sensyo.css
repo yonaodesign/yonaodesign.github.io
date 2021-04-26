@@ -422,3 +422,8 @@ z-index: 4;
     height: 800px;
     object-fit: cover;
 }
+
+
+footer > a {
+    text-decoration: none;
+}
