@@ -46,7 +46,6 @@ body.side-menu-visible #side-menu {
 .side-menu-overlay {
     left: 0;
     min-width: 100%;
-    background: rgba(0, 0, 0, .4);
     z-index: 100
 }
 

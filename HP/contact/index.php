@@ -2,7 +2,7 @@
 <html lang="jp">
 
 <head>
-    <meta charset='UTF-8'>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>めっき・表面処理　|　大阪市のめっき工場、株式会社センショー</title>
@@ -11,24 +11,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../sensyo.css">
+    <link rel="stylesheet" href="sensyo.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
+<link rel="stylesheet" href="/betternav.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174508777-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-174508777-1');
+    </script>
+
+
 </head>
 
 <body class="japanese">
+
     <!-- TOP BANNER -->
     <div class="alert alert-warning alert-dismissible fade show information visually-hidden" role="alert">
         2023年5月1日は、「素晴らしい展示会」に参加いたします！　<u>もっと読む→</u>
@@ -37,25 +37,6 @@
         </button>
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <!-- TOP NAVI -->
 
     <nav class="navbar navbar-expand-lg navbar-light" style="margin-top:25px; margin-bottom:25px;">
@@ -101,7 +82,7 @@
                     </li>
         
                     <li class="nav-item">
-                        <a href="tel:06-6657-0007" class="nav-link btn btn-primary">
+                        <a href="tel:06-6657-0007" class="nav-link btn btn-primary" style="min-height: 50px;">
                             <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -112,7 +93,7 @@
                             <span class="label"> 06-6657-0007</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="./contact/index.php" class="nav-link btn btn-secondary"><span><svg width="20" height="16"
+                        <a href="/contact/index.php" class="nav-link btn btn-secondary" style="min-height: 50px;"><span><svg width="20" height="16"
                                     viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M18 16H2C0.89543 16 0 15.1046 0 14V1.913C0.0466084 0.842548 0.928533 -0.00101238 2 9.11911e-07H18C19.1046 9.11911e-07 20 0.895432 20 2V14C20 15.1046 19.1046 16 18 16ZM2 3.868V14H18V3.868L10 9.2L2 3.868ZM2.8 2L10 6.8L17.2 2H2.8Z"
@@ -136,19 +117,19 @@
                             aria-haspopup="true" aria-expanded="false">めっき技術・表面処理</a>
                         <div class="dropdown-menu" >
                             <strong class="nav-header">めっき技術</strong>
-                            <a class="dropdown-item" href="./plating/nickel.html">ニッケルめっき</a>
-                            <a class="dropdown-item" href="./plating/tin.html">錫めっき</a>
-                            <a class="dropdown-item" href="./plating/hardchromium.html">硬質クロムめっき</a>
-                            <a class="dropdown-item" href="./plating/electroless_nickel.html">無電解ニッケルめっき</a>
-                            <a class="dropdown-item" href="./plating/nickelchrome.html">ニッケルクロムめっき</a>
+                            <a class="dropdown-item" href="/plating/nickel.html">ニッケルめっき</a>
+                            <a class="dropdown-item" href="/plating/tin.html">錫めっき</a>
+                            <a class="dropdown-item" href="/plating/hardchromium.html">硬質クロムめっき</a>
+                            <a class="dropdown-item" href="/plating/electroless_nickel.html">無電解ニッケルめっき</a>
+                            <a class="dropdown-item" href="/plating/nickelchrome.html">ニッケルクロムめっき</a>
                             <a class="dropdown-item disabled" href="">その他のめっき</a>
                             <div class="dropdown-divider"></div>
                             <strong class="nav-header">機能めっき</strong>
-                            <a class="dropdown-item" href="./plating/compositeplating.html">複合めっき</a>
+                            <a class="dropdown-item" href="/plating/compositeplating.html">複合めっき</a>
         
                             <div class="dropdown-divider"></div>
                             <strong class="nav-header">表面処理</strong>
-                            <a class="dropdown-item" href="./plating/colored_titanium.html">チタン材カラーリング</a>
+                            <a class="dropdown-item" href="/plating/colored_titanium.html">チタン材カラーリング</a>
                         </div>
                     </li>
         
@@ -157,16 +138,16 @@
                             aria-haspopup="true" aria-expanded="false">会社案内</a>
                         <div class="dropdown-menu">
                             <strong class="nav-header">会社案内</strong>
-                            <a class="dropdown-item" href="./company.html">会社概要</a>
+                            <a class="dropdown-item" href="/company.html">会社概要</a>
                             <div class="dropdown-divider"></div>
                             <strong class="nav-header">表面処理</strong>
-                            <a class="dropdown-item" href="./company.html#message">社長あいさつ</a>
-                            <a class="dropdown-item" href="./company.html#vision">Sensyo 2030</a>
+                            <a class="dropdown-item" href="/company.html#message">社長あいさつ</a>
+                            <a class="dropdown-item" href="/company.html#vision">Sensyo 2030</a>
                             <div class="dropdown-divider"></div>
                             <strong class="nav-header">方針</strong>
-                            <a class="dropdown-item" href="./company.html#vision">経営理念</a>
-                            <a class="dropdown-item" href="./company.html#vision">品質方針</a>
-                            <a class="dropdown-item" href="./company.html#vision">環境方針</a>
+                            <a class="dropdown-item" href="/company.html#vision">経営理念</a>
+                            <a class="dropdown-item" href="/company.html#vision">品質方針</a>
+                            <a class="dropdown-item" href="/company.html#vision">環境方針</a>
                         </div>
                     </li>
         
@@ -174,9 +155,9 @@
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">SDGsの取り組み</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./SDGs.html">センショーのSDGsの取り組み</a>
-                            <a class="dropdown-item visually-hidden" href="./SDGs.html">2021年の実績報告</a>
-                            <a class="dropdown-item" href="./SDGs.html">SDGsとは</a>
+                            <a class="dropdown-item" href="/SDGs.html">センショーのSDGsの取り組み</a>
+                            <a class="dropdown-item visually-hidden" href="/SDGs.html">2021年の実績報告</a>
+                            <a class="dropdown-item" href="/SDGs.html">SDGsとは</a>
                         </div>
                     </li>
         
@@ -184,10 +165,10 @@
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">採用</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./recruit.html">募集要項</a>
-                            <a class="dropdown-item" href="./recruit.html">先輩社員の声</a>
-                            <a class="dropdown-item" href="./recruit.html">仕事内容</a>
-                            <a class="dropdown-item" href="./recruit.html">従業員教育</a>
+                            <a class="dropdown-item" href="/recruit.html">募集要項</a>
+                            <a class="dropdown-item" href="/recruit.html">先輩社員の声</a>
+                            <a class="dropdown-item" href="/recruit.html">仕事内容</a>
+                            <a class="dropdown-item" href="/recruit.html">従業員教育</a>
                         </div>
                     </li>
         
@@ -195,9 +176,9 @@
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">ニュース</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="./news.html">新着情報</a>
-                            <a class="dropdown-item" href="./blog.html">ブログ</a>
-                            <a class="dropdown-item" href="./news.html">メルマガ登録</a>
+                            <a class="dropdown-item" href="/news.html">新着情報</a>
+                            <a class="dropdown-item" href="/blog.html">ブログ</a>
+                            <a class="dropdown-item" href="/news.html">メルマガ登録</a>
                         </div>
                     </li>
                   </ul>
