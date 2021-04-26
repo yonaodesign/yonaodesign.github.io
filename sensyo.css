@@ -26,8 +26,32 @@
 
 .push-down {margin-top:50px;}
 
+.logo, .logo>p {
+    cursor: pointer;
+}
+
+img {
+    object-fit:cover;
+    }
+
+.product-photo {
+        object-fit:cover;
+        width: 40vw;
+        }
+.contena>img {
+        object-fit:cover;
+        width: 40vw;
+        height: 20vh;
+        }
+
+.col-3>ul>li>a{
+    text-decoration: none;
+}
+
+
 .logo>svg {
     fill: var(--primary-color);
+    cursor: pointer;
 }
 
 :lang(en), .english {

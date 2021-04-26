@@ -23,6 +23,16 @@
     
 }
 
+img {
+    object-fit:cover;
+    }
+
+#product-photo {
+        object-fit:cover;
+        max-width: 100px;
+        }
+
+
 .push-down {margin-top:50px;}
 
 .logo>svg {
