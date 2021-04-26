@@ -82,7 +82,7 @@ button, a, button > span, a > span {
         font-size: 48px;
     }
     .small-hidden {
-        display: :none;
+        display: none;
     }
 
     .small-push-down {margin-top:32px;}
