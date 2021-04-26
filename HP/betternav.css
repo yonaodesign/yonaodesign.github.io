@@ -10,8 +10,8 @@ body.overflow-hidden {
 }
 
 #side-menu {
-    width: 400px;
-    right: -400px;
+    width: 600px;
+    right: -600px;
     overflow-y: auto;
     z-index: 1035;
     background: #fff;
@@ -21,7 +21,7 @@ body.overflow-hidden {
 }
 
 body.side-menu-visible #side-menu {
-    transform: translateX(-300px)
+    transform: translateX(-600px)
 }
 
 #side-menu .contents {
