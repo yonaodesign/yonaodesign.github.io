@@ -41,7 +41,7 @@ img {
 .contena>img {
         object-fit:cover;
         width: 40vw;
-        height: 15vw;
+        height: 20vw;
         }
 
 .col-3>ul>li>a{
