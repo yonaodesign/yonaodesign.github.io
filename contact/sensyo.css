@@ -194,7 +194,7 @@ section h1 {
     padding-bottom: 4px;
 }
 
-.cards, #services, #sdgs, #recruit, #contact, footer, #company .jumbotron, #blog, #news, #genri, .block, #news-block, #offer, #opinions {
+.cards, #services, #sdgs, #recruit, #contact, #company .jumbotron, #blog, #news, #genri, .block, #news-block, #offer, #opinions {
     padding-left: var(--outline);
     padding-right: var(--outline);
     padding-top: 100px;
