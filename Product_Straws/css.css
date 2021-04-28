@@ -1,6 +1,42 @@
-*{line-height: 200%;
-    overflow-x:hidden;}
-section{padding:200px 150px 200px 150px}
+*{line-height: 200%;;}
+
+@media screen and (min-width: 601px) {
+        section{padding:200px 150px 200px 150px} 
+        .banner-tagline {font-family: 'Permanent Marker', cursive;
+            font-size: 7rem;
+            line-height: 100%;
+        color:#fff;        
+        }
+        
+        .hero-tagline {font-family: 'Permanent Marker', cursive;
+         font-size: 10rem;
+        color:#fff;
+        text-align: center;
+        
+        }       
+        }
+
+
+
+@media screen and (max-width: 600px) {
+        section{padding:50px 30px 50px 30px}  
+
+        .banner-tagline {font-family: 'Permanent Marker', cursive;
+            font-size: 3rem;
+            line-height: 100%;
+        color:#fff;        
+        }
+        
+        .hero-tagline {font-family: 'Permanent Marker', cursive;
+         font-size: 4rem;
+        color:#fff;
+        text-align: center;
+        
+        }      
+    }
+
+
+
 #hero {padding-top: 50px;  border-bottom-left-radius: 50% 5%;}
 #banner-primary{  border-top-right-radius: 100% 5%; border-bottom-left-radius: 100% 5%;}
 #story{  border-top-right-radius: 100% 5%; border-bottom-left-radius: 100% 5%;}
@@ -65,17 +101,13 @@ font-size: 1.5rem;}
 
 
 .banner-tagline {font-family: 'Permanent Marker', cursive;
-    font-size: 10rem;
-    line-height: 100%;
-
 color:#fff
 
 }
 
 .hero-tagline {font-family: 'Permanent Marker', cursive;
-    font-size: 10rem;
 color:#fff;
-text-align: center;
+color:#fff
 
 }
 
