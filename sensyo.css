@@ -72,9 +72,8 @@ button, a, button > span, a > span {
     cursor: pointer;
 }
 
-.showcase-image {    max-width: 40vw;
-    min-height: 20vw;
-    object-fit: cover;}
+.showcase-image {max-width: 40vw;
+        object-fit: cover;}
 
 
 @media screen and (max-width: 1200px) {
@@ -515,3 +514,30 @@ footer > a {text-decoration: none;}
 .badges {
     max-width:100px;
 }
+
+
+th {width: 25%;
+    text-align: left;};
+td, th {vertical-align: top !important;}
+
+tbody>tr>td, 
+tbody>tr>th, 
+tfoot>tr>td, 
+tfoot>tr>th, 
+thead>tr>td, 
+thead>tr>th {
+      vertical-align: top;
+ }
+
+ .navbar-light .navbar-nav .nav-link {color:#000}
+
+
+ .btn-sidemenu {display:none}
+
+ .h-plating:after {
+    content: "";
+    display: block;
+    width: 60px;
+    border-bottom: 4px solid #1200b6;
+    margin-right: auto;
+    margin-top:5px;}

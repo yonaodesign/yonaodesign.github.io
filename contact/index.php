@@ -461,7 +461,7 @@
 
     <footer class="footer-visibility">
         <section>
-            <div class="container-fluid">
+            <div class="container">
                 <h1 class="display-4">認証とメンバーシップ</h1>
                 <div class="row" style="text-align:center;">
 
@@ -509,7 +509,7 @@
                 </div>
             </div>
 
-            <div class="container-fluid" style="padding-top:100px; ">
+            <div class="container" style="padding-top:100px; ">
                 <h1 class="display-4">ナビゲーション</h1>
                 <div class="row justify-content-between">
                     <div class="col-3">
@@ -575,6 +575,7 @@
 
     <div class="end">
         <div id="end">
+            <div class="container">
             <div class="row justify-content-between" >
                 <div class="logo col-xs-12 col-sm-12 col-md-12 col-lg-3">
                     <svg width="197" height="113" viewBox="0 0 197 113" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -622,7 +623,7 @@
                 </p>
 
             </div>
-        </div>
+        </div></div>
     </div>
 
 
