@@ -72,6 +72,11 @@ button, a, button > span, a > span {
     cursor: pointer;
 }
 
+.showcase-image {    max-width: 40vw;
+    min-height: 20vw;
+    object-fit: cover;}
+
+
 @media screen and (max-width: 1200px) {
     span.label {
         display: none;
@@ -99,7 +104,8 @@ button, a, button > span, a > span {
         --outline: 25px;
     }
 
-    .blog-desription {margin-left:0px}
+
+    
 }
 
 .lead-caption{font-size:105px;}
@@ -111,7 +117,10 @@ button, a, button > span, a > span {
     .small-hidden {
         display: none;
     }
-
+    .blog-desription {margin-left:0px}
+    .showcase-image {    max-width: 90vw;
+        min-height: 20vw;
+        object-fit: cover;}
   
     .small-push-down {margin-top:32px;}
 
