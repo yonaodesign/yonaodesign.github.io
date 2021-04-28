@@ -1,4 +1,5 @@
-*{line-height: 200%;}
+*{line-height: 200%;
+    overflow-x:hidden;}
 section{padding:200px 150px 200px 150px}
 #hero {padding-top: 50px;  border-bottom-left-radius: 50% 5%;}
 #banner-primary{  border-top-right-radius: 100% 5%; border-bottom-left-radius: 100% 5%;}
