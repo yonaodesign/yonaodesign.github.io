@@ -1,0 +1,81 @@
+*{line-height: 200%;}
+section{padding:200px 150px 200px 150px}
+#hero {padding-top: 50px;  border-bottom-left-radius: 50% 5%;}
+#banner-primary{  border-top-right-radius: 100% 5%; border-bottom-left-radius: 100% 5%;}
+#story{  border-top-right-radius: 100% 5%; border-bottom-left-radius: 100% 5%;}
+#banner-secondary{  border-top-right-radius: 100% 5%; border-bottom-left-radius: 100% 5%;}
+#footer{  border-top-right-radius: 100% 5%; }
+nav{margin-bottom: 150px;font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+font-weight: 600;
+}
+.nav-item{margin-right:10px;}
+
+#story {background-color: #000000;color:#fff}
+#banner-primary{background: url(./banner-primary.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+#banner-secondary{background: url(./banner-secondary.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+#banner-primary{background: url(./banner-primary.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+#footer{background: url(./footer.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+#story{background: url(./story.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+#hero{background: url(./hero.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+.color-sample{border-radius:500px;
+min-width: 120%;}
+
+
+h1{font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+font-weight: 600;}
+h2{font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+font-weight: 600;}
+h3{font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+font-weight: 600;}
+.tagline {font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 1.5rem;margin-bottom:30px}
+p {font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 1.5rem;}
+
+
+.banner-tagline {font-family: 'Permanent Marker', cursive;
+    font-size: 10rem;
+    line-height: 100%;
+
+color:#fff
+
+}
+
+.hero-tagline {font-family: 'Permanent Marker', cursive;
+    font-size: 10rem;
+color:#fff;
+text-align: center;
+
+}
+
+.point{margin-bottom:20px}

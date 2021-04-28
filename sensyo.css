@@ -85,7 +85,10 @@ button, a, button > span, a > span {
     .blog-desription {margin-left:50px}
     
 }
-
+.logo {
+    margin-left:30px;
+    margin-bottom:30px;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -96,13 +99,6 @@ button, a, button > span, a > span {
         --outline: 25px;
     }
 
-    .logo {
-        max-width: 60px;
-    }
-    #logocol {
-        max-width: 65px;
-        display:inline-block;
-    }
     .blog-desription {margin-left:0px}
 }
 
@@ -116,6 +112,7 @@ button, a, button > span, a > span {
         display: none;
     }
 
+  
     .small-push-down {margin-top:32px;}
 
     .footer-visibility {display:none;}
