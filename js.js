@@ -82,7 +82,6 @@ $(function(){function e(){s.addClass(""),o.show(),setTimeout(function(){s.addCla
     <div >
         <a class="dropdown-item" href="/news.html">新着情報</a>
         <a class="dropdown-item" href="/blog.html">ブログ</a>
-        <a class="dropdown-item" href="/news.html">メルマガ登録</a>
     </div>
 </li>
 </ul>
