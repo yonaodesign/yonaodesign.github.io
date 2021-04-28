@@ -443,7 +443,7 @@ div.panel.show {
 }
 
 #end{
-    text-align: center;
+    text-align: left;
 }
  
 .carousel-caption {
@@ -504,3 +504,8 @@ z-index: 4;
 
 
 footer > a {text-decoration: none;}
+
+
+.badges {
+    max-width:100px;
+}
