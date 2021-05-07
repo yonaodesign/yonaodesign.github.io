@@ -128,7 +128,6 @@ ul {
 }
 
 .logo {
-    margin-left: 30px;
     margin-bottom: 30px;
 }
 
@@ -147,6 +146,10 @@ ul {
     }
 }
 
+@media screen and (min-width: 601px) {.pusher{display:none}.btn-sidemenu {
+    display: none
+}
+}
 @media screen and (max-width: 600px) {
     span.label {
         display: none;
@@ -154,6 +157,9 @@ ul {
     :root, * {
         --outline: 25px;
     }
+
+
+    .nav>.nav-item{display:none}
 }
 
 /* CAROUSEL */
@@ -168,7 +174,7 @@ ul {
         font-size: 48px;
     }
 
-    .carousel-item {height:450px;}
+    .carousel-item {height:60vh;}
 
     .small-hidden {
         display: none;
@@ -490,9 +496,6 @@ h5 {
     color: #000
 }
 
-.btn-sidemenu {
-    display: none
-}
 
 .work-item {
     margin-bottom: 50px;
