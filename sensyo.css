@@ -1,56 +1,23 @@
 
-@media (max-width: 575.98px) {
-    .contena>img {
-    object-fit: cover;
-    width: 500px;
-    height: 500px;
-}  
 
-.carousel-caption{top:10% !important}
- }
 
  @media (max-width: 767.98px) {
-    .contena>img {
-    object-fit: cover;
-    width: 40vw;
-    height: 15vw;
-}
-
-.carousel-caption{top:10% !important}
- }
-
- 
+.carousel-caption{top:10% !important} } 
 @media (max-width: 991.98px) {
-    .contena>img {
-    object-fit: cover;
-    width: 40vw;
-    height: 15vw;
-}  
-
-.carousel-caption{top:10% !important}
- }
+.carousel-caption{top:10% !important} }
 
  @media (max-width: 1199.98px) {
-    .contena>img {
-    object-fit: cover;
-    width: 40vw;
-    height: 15vw;
-}
-
 .carousel-caption{top:20% !important}
  }
 
 @media (max-width: 1399.98px) {
-    .contena>img {
-    object-fit: cover;
-    width: 40vw;
-    height: 15vw;
-} 
-
 .carousel-caption{top:20% !important}
 }
 
+@media (max-width: 575.98px) {
 
+.carousel-caption{top:10% !important}
+ }
 
 
 /* GLOBAL-SETTINGS */
@@ -304,9 +271,9 @@ nav {
 #recruit .jumbotron1, #recruit .jumbotron2 {
     color: var(--white-color);
     max-width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover  !important;
     padding-left: 10px;
     padding-right: 0px;
     padding-bottom: 100px;
